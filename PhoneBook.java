@@ -2,7 +2,7 @@ package Exceptions;
 import java.util.ArrayList;
 import java.util.List;
 public class PhoneBook {
-    private ArrayList<Record> records;
+    private List<Record> records;
     public PhoneBook(){
         records = new ArrayList<Record>();
     }
